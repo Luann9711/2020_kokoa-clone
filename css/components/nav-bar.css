@@ -1,0 +1,35 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f3f3f3;
+  padding: 20px 50px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  position: relative;
+  color: #2e363e;
+}
+
+.nav_chat-alert {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  font-size: 13px;
+  text-align: center;
+  background-color: rebeccapurple;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -20px;
+  left: 18px;
+}
