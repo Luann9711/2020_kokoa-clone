@@ -3,7 +3,9 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 20px;
+  margin-bottom: 15px;
   padding: var(--horizontal-space);
+  padding-right: 14px;
 }
 
 .screen-header__title {
@@ -11,6 +13,20 @@
   font-weight: 600;
 }
 
+.screen-header__icons {
+  display: flex;
+}
+
 .screen-header__icons span {
   margin-left: 25px;
+}
+
+.red_dot {
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: coral;
+  margin-left: 3px;
+  position: relative;
+  top: -7px;
 }

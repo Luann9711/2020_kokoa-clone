@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find - Kokoa Talk</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>SKT</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>12:07</span>
+        </div>
+        <div class="status-bar__column">
+            <span>97%</span>
+            <i class="fas fa-battery-full fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="screen-header">
+        <h1 class="screen-header__title">Find</h1>
+        <div class="screen-header__icons">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-music fa-lg"></i></span>
+            <span><i class="fas fa-cog fa-lg"></i></span>
+            <div class="red_dot"></div>
+        </div>
+    </header>
+    
+
+    <main class="main-screen">
+        <div class="icon-row">
+            <div class="icon-row__icon">
+                <i class="fas fa-qrcode  fa-2x"></i>
+                <span>QR Code</span>
+            </div>
+
+            <div class="icon-row__icon">
+                <i class="far fa-address-book fa-2x"></i>
+                <span>Add by Contacts</span>
+            </div>
+
+            <div class="icon-row__icon">
+                <i class="fas fa-fingerprint fa-2x"></i>
+                <span>Add by ID</span>
+            </div>
+            
+            <div class="icon-row__icon">
+                <i class="far fa-envelope fa-2x"></i>
+                <span>Invite</span>
+            </div>
+        </div>
+
+
+        <div class="find__recommended-friends">
+            <h6>Recommended Friends</h6>
+            <h3>You have no recommended friends.</h3>
+        </div>
+    
+        <div class="find__open-chat">
+            <h4>Open chat</h4>
+
+            <div class="find_open-chat--home">
+                <span>Go to Openchat Home</span>
+                <i class="fas fa-chevron-right fa-xs"></i>
+            </div>
+        </div>
+
+
+        <div class="open-post">
+            <div class="open-post__column">
+                <h5 class="open-post__title">#BTS</h5>
+                <h6 class="open-post__hashtags">#bts#army#friends</h6>
+                <div class="open-post__members">
+                    <img src="https://search.pstatic.net/common?type=a&size=120x150&quality=95&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2Fportrait%2F201609%2F20160929132502926.jpg"/>
+                    <span class="open-post__member-count">39843 members</span>
+                    <div class="divider"></div>
+                    <span class="open-post__member-status">Active</span>
+                </div>
+            </div>
+            <div class="open-post__column">
+                <div class="open-post__photo">
+                    <img src="https://musicmeta-phinf.pstatic.net/album/003/055/3055487.jpg?type=r360Fll&v=20200223072213"
+                     class="open-post__album-cover"/>
+
+                    <div class="open-post__like-btn">
+                        <i class="fas fa-heart fa-xs"></i>
+                        <span>3463</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="open-post">
+            <div class="open-post__column">
+                <h5 class="open-post__title">#Luann</h5>
+                <h6 class="open-post__hashtags">#luann#composer#orchestral</h6>
+                <div class="open-post__members">
+                    <img src="https://search.pstatic.net/common?type=a&size=120x150&quality=95&direct=true&src=http%3A%2F%2Fsstatic.naver.net%2Fpeople%2Fportrait%2F201609%2F20160929132502926.jpg"/>
+                    <span class="open-post__member-count">6564 members</span>
+                    <div class="divider"></div>
+                    <span class="open-post__member-status">Active</span>
+                </div>
+            </div>
+            <div class="open-post__column">
+                <div class="open-post__photo">
+                    <img src="https://musicmeta-phinf.pstatic.net/album/003/055/3055487.jpg?type=r360Fll&v=20200223072213"
+                     class="open-post__album-cover"/>
+
+                    <div class="open-post__like-btn">
+                        <i class="fas fa-heart fa-xs"></i>
+                        <span>9999</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- Underline navigation Bar -->
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html">
+                    <i class="far fa-user fa-2x"></i>
+                </a>
+            </li>
+
+            <li class="nav__btn">
+                <a class="nav__link" href="chats.html">
+                    <span class="nav_chat-alert badge">32</span>
+                    <i class="far fa-comment fa-2x"></i>
+                </a>
+            </li>
+            
+            <li class="nav__btn">
+                <a class="nav__link" href="find.html">
+                    <i class="fas fa-hashtag fa-2x"></i>
+                </a>
+            </li>
+            
+            <li class="nav__btn">
+                <div class="nav__btn--more">
+                    <a class="nav__link" href="more.html">
+                        <i class="fas fa-ellipsis-h fa-2x"></i>
+                    </a>
+                    <div class="nav__btn--red_dot"></div>
+                </div>
+            </li>
+        </ul>
+    </nav>
+ 
+
+    <script src="https://kit.fontawesome.com/e76db00f40.js" crossorigin="anonymous"></script>
+</body>
+</html>

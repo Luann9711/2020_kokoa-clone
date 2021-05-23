@@ -19,17 +19,18 @@
 }
 
 .nav_chat-alert {
-  height: 25px;
-  width: 25px;
-  border-radius: 50%;
-  font-size: 13px;
-  text-align: center;
-  background-color: coral;
-  color: aliceblue;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: absolute;
   top: -20px;
   left: 18px;
+}
+
+.nav__btn--more {
+  display: flex;
+}
+
+.nav__btn--red_dot {
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  background-color: coral;
 }

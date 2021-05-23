@@ -1,0 +1,39 @@
+.more-screen .icon-row {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.more-suggestions__title {
+  margin-top: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding-top: 25px;
+}
+
+.more-suggestions__icons {
+  margin: 30px;
+  display: flex;
+}
+
+.more-suggestions__icon {
+  text-align: center;
+  margin-right: 55px;
+}
+
+.more-suggestions__icons h5 {
+  font-size: 15px;
+  font-weight: 600;
+  opacity: 0.7;
+}
+
+.more-suggestions__title h4 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.more-suggestions__album-cover {
+  height: 55px;
+  width: 55px;
+  border-radius: 10px;
+}
