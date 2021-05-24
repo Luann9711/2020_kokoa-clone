@@ -1,0 +1,12 @@
+.page__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 15px;
+    padding-top: 40px;
+}
+
+.page__title span {
+    font-size: 21px;
+    font-weight:bolder;
+}
