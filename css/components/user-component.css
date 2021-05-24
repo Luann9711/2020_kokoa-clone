@@ -58,6 +58,10 @@
   justify-content: space-between;
 }
 
+.user-component:hover {
+  background-color: aliceblue;
+}
+
 .user-component__time {
   display: block;
   margin-bottom: 10px;
