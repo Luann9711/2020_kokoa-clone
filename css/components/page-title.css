@@ -1,12 +1,32 @@
 .page__title {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0px 15px;
-    padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 15px;
+  padding-top: 40px;
+  padding-right: 10px;
+  box-sizing: border-box;
 }
 
 .page__title span {
-    font-size: 21px;
-    font-weight:bolder;
+  font-size: 21px;
+  font-weight: bolder;
+}
+
+.page__title__column span:last-child {
+  margin-left: 20px;
+}
+
+.page__title__column {
+  width: 33%;
+}
+
+.page__title__column:nth-child(2) {
+  text-align: center;
+}
+
+.page__title__column:last-child {
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
 }
